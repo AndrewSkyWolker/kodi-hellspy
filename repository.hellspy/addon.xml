@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.hellspy" name="Hellspy Repository" version="1.0.0" provider-name="AndrewSkyWolker">
+    <extension point="xbmc.addon.repository" name="Hellspy Repository">
+        <dir>
+            <info>https://andrewskywolker.github.io/kodi-hellspy/repository.hellspy/addons.xml</info>
+            <checksum>https://andrewskywolker.github.io/kodi-hellspy/repository.hellspy/addons.xml.md5</checksum>
+            <datadir>https://andrewskywolker.github.io/kodi-hellspy/repository.hellspy/</datadir>
+        </dir>
+        <datadir zip="true">https://andrewskywolker.github.io/kodi-hellspy/repository.hellspy/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Repozitáø pro Kodi doplnìk Hellspy</summary>
+        <description>Repozitáø pro Kodi doplnìk Hellspy</description>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
