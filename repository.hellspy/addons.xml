@@ -53,4 +53,22 @@ Napojení na TMDb pro získání názvů filmů
         </assets>
     </extension>
 </addon>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.hellspy" name="Hellspy" version="1.0.20" provider-name="AndrewSkyWolker">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Streamování z hellspy.to (bez přihlášení)</summary>
+        <description>Vyhledávání a přehrávání veřejných videí z hellspy.to
+        </description>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
 </addons>
